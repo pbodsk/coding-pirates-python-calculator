@@ -1,10 +1,10 @@
 # Den komplette regnemaskine
 I har nu alle dele til at lave jeres egen regnemaskine der kan:
 
-- +
-- -
-- /
-- *
+- `+`
+- `-`
+- `/`
+- `*`
 
 I skal bruge variabler, funktioner, `if` sætninger og `try/except`
 
@@ -13,12 +13,15 @@ Den skal selvfølgelig også kontrollere at brugeren ikke taster noget forkert i
 ## Opgaven
 Her er et eksempel på, hvordan min regnemaskine virker:
 
-```
-vælg regnemetode (muligheder: +, -, * og /) eller skriv stop for at stoppe: +
-skriv det første tal: 4
-skriv det andet tal: 5
-4 + 5 = 9
-```
+
+> vælg regnemetode (muligheder: +, -, * og /) eller  skriv stop for at stoppe: +
+
+> skriv det første tal: 4
+
+> skriv det andet tal: 5
+
+> 4 + 5 = 9
+
 
 Det lyder måske som en kæmpestor opgave, men som altid når man skal lave et program er det en god ide at dele opgaven op i mindre opgaver.
 
@@ -41,4 +44,6 @@ Nu skal I så have kombineret den regnemetode brugeren tastede, og de to tal de 
 I skal huske at kigge på hvilken regnemetode brugerne har valgt. Tænk over hvordan I kan gøre det.
 
 ### Bonus
-Hvis det bare går derudaf og I er færdige efter 1 time kan I udvide jeres program så det bliver ved med at regne stykker ud, indtil I skriver "stop"
+Hvis det bare går derudaf og I er færdige efter 1 time kan I udvide jeres program så det bliver ved med at regne stykker ud, indtil I skriver "stop".
+
+`print("God fornøjelse")`
